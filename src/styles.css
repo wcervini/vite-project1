@@ -1,0 +1,73 @@
+@import "tailwindcss";
+@source "../index.html";
+@source "../src/**/*.{html,js,ts,jsx,tsx}";
+
+@theme {
+  --color-light-cyan-50: #e8fcfd;
+  --color-light-cyan-100: #d1f9fa;
+  --color-light-cyan-200: #a2f3f6;
+  --color-light-cyan-300: #74edf1;
+  --color-light-cyan-400: #45e7ed;
+  --color-light-cyan-500: #17e1e8;
+  --color-light-cyan-600: #12b4ba;
+  --color-light-cyan-700: #0e878b;
+  --color-light-cyan-800: #095a5d;
+  --color-light-cyan-900: #052d2e;
+  --color-light-cyan-950: #032020;
+
+  --color-light-blue-50: #eef6f7;
+  --color-light-blue-100: #dcedef;
+  --color-light-blue-200: #b9dadf;
+  --color-light-blue-300: #96c8cf;
+  --color-light-blue-400: #73b6bf;
+  --color-light-blue-500: #50a4af;
+  --color-light-blue-600: #40838c;
+  --color-light-blue-700: #306269;
+  --color-light-blue-800: #204146;
+  --color-light-blue-900: #102123;
+  --color-light-blue-950: #0b1718;
+
+  --color-cool-steel-50: #eff3f5;
+  --color-cool-steel-100: #e0e7eb;
+  --color-cool-steel-200: #c1cfd7;
+  --color-cool-steel-300: #a2b8c3;
+  --color-cool-steel-400: #83a0af;
+  --color-cool-steel-500: #63889c;
+  --color-cool-steel-600: #506d7c;
+  --color-cool-steel-700: #3c525d;
+  --color-cool-steel-800: #28363e;
+  --color-cool-steel-900: #141b1f;
+  --color-cool-steel-950: #0e1316;
+
+  --color-blue-slate-50: #f1f3f4;
+  --color-blue-slate-100: #e3e6e8;
+  --color-blue-slate-200: #c6ced2;
+  --color-blue-slate-300: #aab5bb;
+  --color-blue-slate-400: #8e9ca4;
+  --color-blue-slate-500: #71848e;
+  --color-blue-slate-600: #5b6971;
+  --color-blue-slate-700: #444f55;
+  --color-blue-slate-800: #2d3539;
+  --color-blue-slate-900: #171a1c;
+  --color-blue-slate-950: #101214;
+
+  --color-jet-black-50: #f0f3f5;
+  --color-jet-black-100: #e0e8eb;
+  --color-jet-black-200: #c2d0d6;
+  --color-jet-black-300: #a3b9c2;
+  --color-jet-black-400: #85a2ad;
+  --color-jet-black-500: #668b99;
+  --color-jet-black-600: #526f7a;
+  --color-jet-black-700: #3d535c;
+  --color-jet-black-800: #29373d;
+  --color-jet-black-900: #141c1f;
+  --color-jet-black-950: #0e1315;
+}
+
+h1 {
+  @apply text-4xl text-jet-black-50 font-bold my-4 mx-2;
+}
+
+:root {
+  @apply bg-jet-black-900;
+}
