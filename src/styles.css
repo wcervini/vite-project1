@@ -1,4 +1,13 @@
 @import "tailwindcss";
+@import "@fontsource/anton/400.css";
+@import "@fontsource-variable/caveat/wght.css";
+@import "@fontsource/roboto/100.css";
+@import "@fontsource/roboto/300.css";
+@import "@fontsource/roboto/400.css";
+@import "@fontsource/roboto/500.css";
+@import "@fontsource/roboto/700.css";
+@import "@fontsource/roboto/900.css";
+
 @source "../index.html";
 @source "../src/**/*.{html,js,ts,jsx,tsx}";
 
@@ -62,10 +71,10 @@
   --color-jet-black-800: #29373d;
   --color-jet-black-900: #141c1f;
   --color-jet-black-950: #0e1315;
-}
 
-h1 {
-  @apply text-4xl text-jet-black-50 font-bold my-4 mx-2;
+  --font-anton: "Anton", sans-serif;
+  --font-caveat: "Caveat", cursive;
+  --font-roboto: "Roboto", sans-serif;
 }
 
 :root {
